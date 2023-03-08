@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gmail</title>
+        <!-- CSS style -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!-- css made by self -->
+        <link rel="stylesheet" href="style.css">
+        <!-- bootstrap Scipt  && Popper && JS based on the getstart website bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 col-lg-2 col-md-3 menu-col">
+                    <img src="images/gmail.png" alt="">
+                    <a class="navbar-brand" href="#">Gmail</a>
+                    <button type="button" class="btn btn-lg btn-outline-dark compose-btn">
+                        <i class="fa-solid fa-pen"></i>
+                        Compose</button>
+                    <nav class="navbar navbar-expand-lg navbar-light bg">
+                        <button class="navbar-toggler collapse-btn" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="list-group menu-list-group nav nav-pills">
+                                <li class="list-group-item menu-list-group-item d-flex justify-content-between align-items-center nav-item">
+                                    <a href="#" class="list-group-item-action nav-link" aria-current="page">
+                                        Inbox
+                                    </a>
+                                </li>
+                                <li class="list-group-item menu-list-group-item d-flex justify-content-between align-items-center nav-item">
+                                    <a href="#" class="list-group-item-action nav-link">Tagged</a>
+                                </li>
+                                <li class="list-group-item menu-list-group-item d-flex justify-content-between align-items-center nav-item">
+                                    <a href="#" class="list-group-item-action nav-link">Important</a>
+                                </li>
+                                <li class="list-group-item menu-list-group-item d-flex justify-content-between align-items-center nav-item">
+                                    <a href="#" class="list-group-item-action nav-link">Sent Mail</a>
+                                </li>
+                                <li class="list-group-item menu-list-group-item d-flex justify-content-between align-items-center nav-item">
+                                    <a href="#" class="list-group-item-action nav-link">Drafts</a>
+                                </li>
+                                <li class="list-group-item menu-list-group-item d-flex justify-content-between align-items-center nav-item">
+                                    <a href="#" class="list-group-item-action nav-link">Trash</a>
+                                </li>
+                                <li class="list-group-item menu-list-group-item d-flex justify-content-between align-items-center nav-item">
+                                    <a href="#" class="list-group-item-action nav-link">Spam</a>
+                                </li>
+                            </ul>   
+                        </div>
+                    </nav>  
+                    
+                </div>
+                <div class="col-4 col-lg-5 col-md-4 email-list-col">
+                    <div class="input_container"> 
+                        <input class="form-control" type="search" placeholder="      Search all conversations" aria-label="Search">
+                    </div>
+                    <div class="email-list-group list-group">
+                        <ul class="list-group email-list-group nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#" class="list-group-item list-group-item-action email-list-group-item nav-link active" aria-current="true">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1 email-list-group-item-title">Linkedin</h5>
+                                      <small class="email-list-group-item-time">1 minute ago</small>
+                                    </div>
+                                    <p class="mb-1 email-list-group-item-content">You have a new connection request....</p>
+                                    <p class="mb-1 email-list-group-item-content-small">Read More....</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-group-item list-group-item-action email-list-group-item nav-link">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1 email-list-group-item-title">Daily Report from Notion</h5>
+                                      <small class="text-muted email-list-group-item-time">1 hour ago</small>
+                                    </div>
+                                    <p class="mb-1 email-list-group-item-content">Last week, you spend 5 hours 24 minutes studying ....</p>
+                                    <p class="mb-1 email-list-group-item-content-small">Read More....</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="list-group-item list-group-item-action email-list-group-item nav-link">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1 email-list-group-item-title">Your friend Bob's birthday invitation</h5>
+                                      <small class="text-muted email-list-group-item-time">3 days ago</small>
+                                    </div>
+                                    <p class="mb-1 email-list-group-item-content">Hi, Jessica, How is going recently? I really miss you ......</p>
+                                    <p class="mb-1 email-list-group-item-content-small">Read More....</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-5 col-lg-5 col-md-5">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                        <p class="to">To Jessica@gmail.com</p>
+                        <p class="from">From Linkedin@gmail.com</p>
+                        <h4 id="title">Linkedin</h4>
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Adam</h5>
+                              <p class="card-text">Hi Jessica, I'd like to join your LinkedIn network.</p>
+                              <a href="#" class="btn btn-secondary view-btn">View Profile</a>
+                              <a href="#" class="btn btn-primary accept-btn">Accept</a>
+                            </div>
+                        </div>
+                        <div class="linkedin-footer">
+                            <p>You are receiving Invitation emails</p>
+                            <p>This email was intened for Jessica</p>
+                            <p>Learn why we included this</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/xiaoyu-chen-346898208/">LinkedIn</a>
+            <a class="footer-link" href="https://github.com/20chen-7">GitHub</a>
+            <p class="copyright">© Xiaoyu Chen</p>
+          </div>
+    </body>
+</html>
+
+

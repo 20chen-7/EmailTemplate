@@ -1,0 +1,133 @@
+/* left col */
+.menu-col{
+    padding-top: 20px;
+    background-color: E8D5C4;
+    align-items: center;
+    text-align: center;
+}
+img{
+    height:5%;
+}
+.navbar-brand{
+    font-size: 25px;
+    padding-left: 10px;
+    /* padding-top: 20%; */
+    color:gray;
+}
+.compose-btn{
+    margin-top: 10px;
+}
+.menu-list-group .menu-list-group-item{
+    background-color: E8D5C4;
+    border: none;
+}
+/* middle col */
+.list-group{
+    margin-top: 10px;
+}
+.email-list-col{
+    padding-top: 20px;
+    background-color: rgb(228, 228, 225);
+}
+
+.email-list-group .email-list-group-item{
+    margin-top: 20px;
+    background-color: rgb(228, 228, 225);
+}
+
+.email-list-group .email-list-group-item-title{
+    padding: 10px 20px 10px;
+}
+.email-list-group .email-list-group-item-content{
+    padding: 10px 20px 10px;
+}
+.email-list-group .email-list-group-item-time{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/* left col */
+.view-btn{
+    margin-left: 2%;
+}
+.card{
+    text-align: center;
+    width: 100%;
+}
+.accept-btn{
+    margin-left: 100px;
+}
+/* global setting */
+a:link {
+      text-decoration: none;
+}
+
+.linkedin-footer{
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+}
+.bottom-container {
+    background-color: #3f1804;
+    text-align: center;
+}
+.copyright{
+    color: white;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+/* based on screen size */
+@media screen and (max-width:1200px) {
+    .btn {
+       display: block;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 10px;
+   }
+   .email-list-group .email-list-group-item-content-small{
+    display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+	 .btn {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+    }
+    .email-list-group .email-list-group-item-content-small{
+        display: none;
+    }
+    .collapse-btn{
+        margin-left: 28%;
+    }
+}
+/* email-list-group-item-content-small */
+@media only screen and (max-width:768px) and (min-width:320px) {
+    .btn {
+       display: block;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 10px;
+   }
+   .email-list-group .email-list-group-item-content{
+        display: none;
+   }
+    .email-list-group .email-list-group-item-time{
+    display: none;
+    }
+    .email-list-group .email-list-group-item-content-small{
+        font-size: 10px;
+        margin-left: 20px;
+        display: block;
+    }
+    .collapse-btn{
+        margin-left: 28%;
+    }
+    h5{
+        font-size: 15px;
+    }
+}
