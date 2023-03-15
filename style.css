@@ -45,6 +45,9 @@ img{
     margin-right: 10px;
     margin-top: 10px;
 }
+.email-list-group .email-list-group-item-content-small{
+    display: none;
+}
 /* left col */
 .view-btn{
     margin-left: 2%;
@@ -55,6 +58,9 @@ img{
 }
 .accept-btn{
     margin-left: 100px;
+}
+.menu-col-ico {
+    margin-right: 2px;
 }
 /* global setting */
 a:link {
@@ -84,9 +90,6 @@ a:link {
        margin-right: auto;
        font-size: 10px;
    }
-   .email-list-group .email-list-group-item-content-small{
-    display: none;
-    }
 }
 
 @media screen and (max-width:992px) {
